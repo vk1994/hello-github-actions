@@ -1,9 +1,7 @@
 name: Workflow for Hello World
 on: push
 jobs:
-  build:
-    name: Hello world action
-    runs-on: ubuntu-latest
+  first_action:
     steps:
       - uses: actions/checkout@v1
       - uses: ./action-a
